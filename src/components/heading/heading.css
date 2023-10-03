@@ -1,0 +1,34 @@
+.headingSection
+{
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.headingSection h1
+{
+    padding: 0.3rem 0.5rem;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 4rem;
+    align-items: center;
+}
+
+.headingSection h1 span
+{
+    color: white;
+    padding: 4px 15px 10px 15px;
+    background-color: blue;
+    border-radius: 4.5rem;
+}
+
+.headingSection p
+{
+    width: 35%;
+    text-align: center;
+    font-size: 0.8rem;
+}
