@@ -1,6 +1,6 @@
 .mainSection
 {
-    margin: auto;
+    margin: 2rem auto;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -30,4 +30,22 @@
   display: grid;
   grid-template-columns: auto auto auto;
   row-gap: 1.5rem;
+}
+
+.loadmoreSection
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.loadmoreSection button
+{
+    border: none;
+    background-color: #425fe3;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 1rem;
+    font-weight: bold;
 }
