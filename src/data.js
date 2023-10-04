@@ -380,6 +380,34 @@ const propertyData =
         price: 5256,
         img: 'https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     }
+    ,
+    {
+        id: 28,
+        city : 'mumbai',
+        title: 'For Rent',
+        location: '3890 Poplar Dr.',
+        address: '77 Rue de la Seine, Saint-Germain-des-Prés, 75006 Paris',
+        room: 3,
+        bed: 4,
+        bath: 1,
+        sft: 732,
+        price: 5256,
+        img: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+    }
+    ,
+    {
+        id: 29,
+        city : 'new york',
+        title: 'For Sale',
+        location: '3890 Poplar Dr.',
+        address: '64 Willow Walk, Kensington and Chelsea, London SW3 6FG',
+        room: 3,
+        bed: 4,
+        bath: 1,
+        sft: 732,
+        price: 5256,
+        img: 'https://images.unsplash.com/photo-1600585153490-76fb20a32601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+    }
 
 ]
 

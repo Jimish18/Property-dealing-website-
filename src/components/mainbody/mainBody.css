@@ -49,3 +49,9 @@
     border-radius: 1rem;
     font-weight: bold;
 }
+
+.activeButton
+{
+    background-color: #425fe3 !important;
+    color: white !important;
+}
