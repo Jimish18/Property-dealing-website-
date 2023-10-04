@@ -1,13 +1,18 @@
 import './App.css';
-import Heading from './components/heading/Heading';
-import MainBody from './components/mainbody/MainBody';
+import {  BrowserRouter as Router, Routes,  Route} from "react-router-dom";
+import HomePage from './components/HomePage';
+import PropertyPage from './components/propertyPage/PropertyPage';
 
 function App() {
   return (
     <>
-      <Heading />
-      <MainBody />
 
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/property/:id" element={<PropertyPage/>}/>
+      </Routes>
+    </Router>
     </>
     
   );

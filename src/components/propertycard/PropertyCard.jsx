@@ -6,11 +6,13 @@ import {BiBed} from 'react-icons/bi'
 import {LuBath} from 'react-icons/lu'
 import {LiaArrowsAltSolid} from 'react-icons/lia'
 import {FiHeart} from 'react-icons/fi';
+import { useNavigate } from 'react-router-dom'
 
 const PropertyCard = ({id,city,title,location,address,room,bed,bath,sft,price,img}) => {
+
+    const navigate = useNavigate();
   return (
-    <div className='propertyCardDiv'>
-        
+    <div className='propertyCardDiv' onClick={() => navigate(`/property/${id}`)}>        
         
         <div className="imgDiv" style={{backgroundImage : `url(${img})`}}>
             <div>{title}</div>
